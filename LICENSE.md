@@ -21,7 +21,7 @@ The licensor cannot revoke these freedoms as long as you follow the license term
 
 Please credit the author as follows:  
 **Author name:** Philippe Joye  
-**Source:** [https://github.com/orion4d/IconMaster](https://github.com/orion4d/IconMaster)  
+**Source:** https://github.com/orion4d/LinkDruid 
 **License:** [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 
 ## Full License Text
