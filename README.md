@@ -1,9 +1,9 @@
 # LinkDruid - Gestionnaire de Liens Local
-![image](https://github.com/user-attachments/assets/beb155c8-220e-438b-a5ae-dce195197f7d)
-
 LinkDruid est une application web simple et personnelle pour gérer, organiser et visualiser vos marque-pages (liens). Elle fonctionne localement grâce à un serveur Node.js et stocke toutes vos données directement dans le `localStorage` de votre navigateur, offrant une solution rapide, privée et entièrement sous votre contrôle.
 
 Le serveur back-end est principalement utilisé pour servir les fichiers de l'application et pour une fonctionnalité clé : le traitement (redimensionnement) des images que vous téléversez pour vos liens.
+
+![image](https://github.com/user-attachments/assets/6e02e385-d974-49cf-9be2-eac655e46fbb)
 
 ## Fonctionnalités
 
