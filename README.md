@@ -51,4 +51,15 @@ npm set-script start "node server.js"
 # Démarrer en local
 npm start      # ou: node server.js
 
+### Sous Windows
+Vous pouvez simplement **double-cliquer** sur `start_linkdruid.bat`.
+
+Le script :
+1. installe les dépendances si `node_modules/` est absent ;
+2. lance le serveur dans une console dédiée ;
+3. ouvre aussitôt votre navigateur sur <http://localhost:3000>.
+
+> Pour arrêter l’appli : fermez la fenêtre « LinkDruid Server Process ».
+
+
 
