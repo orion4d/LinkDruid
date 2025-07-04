@@ -1,6 +1,6 @@
 # LinkDruid
 
-_Gérez vos liens comme un·e druide dompterait une forêt d’URLs._
+_Gérez vos liens comme un e-druide dompterait une forêt d’URLs._
 
 LinkDruid est une application web (HTML + Tailwind + Vanilla JS côté client, Node/Express côté serveur) qui permet de **classer, tagguer et illustrer vos liens** de façon ultra-rapide, hors-ligne et auto-hébergée.
 
