@@ -45,9 +45,6 @@ cd linkdruid
 # 2. Installer les dépendances
 npm install
 
-# 3. (Facultatif) ajouter un script de démarrage propre
-npm set-script start "node server.js"
-
 # Démarrer en local
 npm start      # ou: node server.js
 
