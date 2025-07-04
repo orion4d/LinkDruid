@@ -1,0 +1,10 @@
+# Dépendances
+node_modules/
+
+# Logs & junk
+npm-debug.log*
+yarn-debug.log*
+.DS_Store
+
+# Build / dist éventuels
+dist/

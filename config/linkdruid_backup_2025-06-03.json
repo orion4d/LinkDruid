@@ -1,0 +1,228 @@
+{
+  "version": "linkdruid_config_v1.0",
+  "timestamp": "2025-06-03T12:40:02.084Z",
+  "categories": [
+    {
+      "name": "À classer",
+      "color": "#0ea5e9",
+      "iconFileName": "Dossier.png",
+      "isPinned": true
+    },
+    {
+      "name": "Chatbot",
+      "color": "#0ea5e9",
+      "iconFileName": "20250601_2238_Icône 3D Nodale_simple_compose_01jwpkd35kfnzrz3whaq8y9nmz.png",
+      "isPinned": false
+    },
+    {
+      "name": "APP phil",
+      "color": "#0ea5e9",
+      "iconFileName": "20250601_2348_Icône IA Science_simple_compose_01jwpqempwem69x6n2134dt3k8.png",
+      "isPinned": false
+    },
+    {
+      "name": "Photographie",
+      "color": "#0ea5e9",
+      "iconFileName": "20250601_2236_Icône Photo 3D_simple_compose_01jwpk9fyyfm0bb9jh2p03rva9.png",
+      "isPinned": false
+    },
+    {
+      "name": "Warez",
+      "color": "#0ea5e9",
+      "iconFileName": "pirate-01.png",
+      "isPinned": false
+    },
+    {
+      "name": "Graphisme",
+      "color": "#0ea5e9",
+      "iconFileName": "voyage.png",
+      "isPinned": false
+    },
+    {
+      "name": "Cloud",
+      "color": "#0ea5e9",
+      "iconFileName": "",
+      "isPinned": false
+    },
+    {
+      "name": "ComfyUI",
+      "color": "#0ea5e9",
+      "iconFileName": "comfyui.jpg",
+      "isPinned": false
+    },
+    {
+      "name": "sssss",
+      "color": "#0ea5e9",
+      "iconFileName": "wifi.png",
+      "isPinned": false
+    }
+  ],
+  "links": [
+    {
+      "title": "List_constructor",
+      "url": "https://creanode.eu/app/List_constructor.html",
+      "description": "",
+      "tags": [
+        "APP phil"
+      ],
+      "category": "APP phil",
+      "imageUrl": "",
+      "iconFileName": ""
+    },
+    {
+      "title": "Prompt Master List",
+      "url": "https://creanode.eu/app/Prompt_Master_List.html",
+      "description": "",
+      "tags": [],
+      "category": "APP phil",
+      "imageUrl": ""
+    },
+    {
+      "title": "Generative paint",
+      "url": "https://creanode.eu/app/generative_paint/generative_paint.html",
+      "description": "",
+      "tags": [],
+      "category": "APP phil",
+      "imageUrl": ""
+    },
+    {
+      "title": "Sora",
+      "url": "https://sora.chatgpt.com/explore",
+      "description": "",
+      "tags": [
+        "Chatbot"
+      ],
+      "category": "Chatbot",
+      "imageUrl": "",
+      "iconFileName": "voyage.png"
+    },
+    {
+      "title": "comfy.org",
+      "url": "https://www.comfy.org/",
+      "description": "",
+      "tags": [
+        "ComfyUI"
+      ],
+      "category": "ComfyUI",
+      "imageUrl": "",
+      "iconFileName": ""
+    },
+    {
+      "title": "comfyanonymous",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "description": "",
+      "tags": [
+        "github",
+        "ComfyUI"
+      ],
+      "category": "ComfyUI",
+      "imageUrl": "",
+      "iconFileName": ""
+    },
+    {
+      "title": "ASCIIArtPro",
+      "url": "https://creanode.eu/app/ASCIIArtPro-Alpha.html",
+      "description": "",
+      "tags": [],
+      "category": "APP phil",
+      "imageUrl": "",
+      "iconFileName": ""
+    },
+    {
+      "title": "ASCII text Art",
+      "url": "https://creanode.eu/app/ASCII_txt_Art/ASCII_txt_Art.html",
+      "description": "",
+      "tags": [],
+      "category": "APP phil",
+      "imageUrl": "",
+      "iconFileName": ""
+    },
+    {
+      "title": "Glitch Art Pro",
+      "url": "https://creanode.eu/app/glitchart_pro/glitchart_pro.html",
+      "description": "",
+      "tags": [],
+      "category": "APP phil",
+      "imageUrl": "",
+      "iconFileName": ""
+    },
+    {
+      "title": "ComfyUI-Image-Effects",
+      "url": "https://github.com/orion4d/ComfyUI-Image-Effects",
+      "description": "",
+      "tags": [
+        "ComfyUI"
+      ],
+      "category": "APP phil",
+      "imageUrl": "",
+      "iconFileName": ""
+    },
+    {
+      "title": "wawacity",
+      "url": "https://www.wawacity.futbol/",
+      "description": "",
+      "tags": [
+        "Warez"
+      ],
+      "category": "Warez",
+      "imageUrl": "",
+      "iconFileName": ""
+    },
+    {
+      "title": "thiweb",
+      "url": "https://live.thiweb.com/decrypte.php",
+      "description": "",
+      "tags": [
+        "Warez"
+      ],
+      "category": "Warez",
+      "imageUrl": "",
+      "iconFileName": "20250601_2244_Icône Science des Données_simple_compose_01jwpkrjydesmsf16vexb576yy.png"
+    },
+    {
+      "title": "debrid-link",
+      "url": "https://debrid-link.fr/webapp/downloader",
+      "description": "",
+      "tags": [],
+      "category": "Warez",
+      "imageUrl": "",
+      "iconFileName": ""
+    },
+    {
+      "title": "cgpersia",
+      "url": "https://cgpersia.com/",
+      "description": "",
+      "tags": [],
+      "category": "Warez",
+      "imageUrl": "",
+      "iconFileName": ""
+    },
+    {
+      "title": "ss",
+      "url": "https://www.facebook.com/photo/?fbid=10162812126579059&set=gm.1418556839153643&idorvanity=821563432186323",
+      "description": "",
+      "tags": [],
+      "category": "À classer",
+      "imageUrl": "",
+      "iconFileName": ""
+    },
+    {
+      "title": "mail",
+      "url": "https://mail.yahoo.com/d/folders/1?.lang=fr-FR",
+      "description": "",
+      "tags": [],
+      "category": "À classer",
+      "imageUrl": "img/mini_link_1748949409608-905762.jpg",
+      "iconFileName": ""
+    },
+    {
+      "title": "test",
+      "url": "https://aistudio.google.com/prompts/1zqBeOqltM_Jq3oaVLPNWWi6_aZdDgdWW",
+      "description": "",
+      "tags": [],
+      "category": "À classer",
+      "imageUrl": "",
+      "iconFileName": "20250601_2238_Icône 3D Nodale_simple_compose_01jwpkd35kfnzrz3whaq8y9nmz.png"
+    }
+  ]
+}

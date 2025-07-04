@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <link crossorigin href="https://fonts.gstatic.com/" rel="preconnect"/>
+  <link as="style" href="https://fonts.googleapis.com/css2?display=swap&family=Inter:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+  <title>LinkDruid – Réglages des catégories</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <style>
+    body { background-color: #f8fafc; color: #1e293b; font-family: Inter, "Noto Sans", sans-serif; }
+    .material-symbols-outlined { font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24; vertical-align: middle; }
+    .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+    .header-settings { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.5rem; }
+    .header-settings h1 { font-size: 1.75rem; font-weight: 700; color: #334155; display: flex; align-items: center; gap: 0.5rem; flex-grow: 1; }
+    .btn-back { display: inline-flex; align-items: center; gap: 0.5rem; background-color: #ffffff; border: 1px solid #cbd5e1; color: #475569; padding: 0.5rem 1rem; border-radius: 0.375rem; font-size: 0.875rem; font-weight: 500; transition: background-color 0.2s; }
+    .btn-back:hover { background-color: #f1f5f9; }
+    #btn-new-cat-settings { display: inline-flex; align-items: center; gap: 0.5rem; background-color: #0ea5e9; color: #ffffff; padding: 0.625rem 1rem; border: none; border-radius: 0.375rem; font-size: 0.875rem; font-weight: 500; transition: background-color 0.2s; white-space: nowrap; }
+    #btn-new-cat-settings:hover { background-color: #0284c7; }
+    .settings-controls { display: flex; gap: 1rem; margin-bottom: 1.5rem; align-items: center; }
+    #cat-settings-search-wrapper { position: relative; flex-grow: 1; }
+    #cat-settings-search-input { width: 100%; padding-left: 2.5rem; padding-right: 0.75rem; height: 2.5rem; border-radius: 0.375rem; border: 1px solid #cbd5e1; background-color: #ffffff; color: #334155; }
+    #cat-settings-search-wrapper .material-symbols-outlined { position: absolute; top: 50%; left: 0.75rem; transform: translateY(-50%); color: #94a3b8; font-size: 1.25rem; pointer-events: none;}
+    #sort-cats-settings-btn { display: inline-flex; align-items: center; gap: 0.5rem; justify-content: center; padding: 0.5rem 1rem; height:2.5rem; border-radius: 0.375rem; font-size: 0.875rem; font-weight: 500; cursor: pointer; background-color: #e2e8f0; color: #334155; border: none; transition: background-color 0.2s; white-space: nowrap; }
+    #sort-cats-settings-btn:hover { background-color: #cbd5e1; }
+    #settings-cats-list { list-style: none; padding:0; margin:0; }
+    #settings-cats-list li { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; padding: 0.5rem; border-radius: 0.375rem; background-color: #fff; box-shadow: 0 1px 3px 0 rgba(0,0,0,0.07), 0 1px 2px -1px rgba(0,0,0,0.05); }
+    .cat-pin-btn-container, .cat-delete-btn-container, .cat-export-btn-container { flex-shrink: 0; width: 2.5rem; height:2.5rem; display: flex; align-items: center; justify-content: center; }
+    .cat-pin-btn, .cat-delete-btn, .cat-export-btn-container button { font-size: 1.25rem; padding: 0.5rem; border-radius: 9999px; transition: color 0.2s, background-color 0.2s; line-height: 1; border: none; background: none; cursor: pointer; }
+    .cat-pin-btn:hover, .cat-delete-btn:hover, .cat-export-btn-container button:hover { background-color: #e2e8f0; }
+    .cat-pin-btn.pinned { color: #0ea5e9; font-variation-settings: "'FILL' 1, 'wght' 600"; }
+    .cat-pin-btn.not-pinned { color: #94a3b8; font-variation-settings: "'FILL' 0, 'wght' 400"; }
+    .cat-delete-btn { color: #64748b; } .cat-delete-btn:hover { color: #ef4444; }
+    .cat-export-btn-container button { color: #64748b; } .cat-export-btn-container button:hover { color: #0ea5e9;}
+    .cat-icon-square { width: 56px; height: 56px; flex-shrink: 0; border-radius: 8px; background-color: #f1f5f9; background-size: cover; background-position: center; cursor: pointer; border: 1px solid #cbd5e1; }
+    .cat-icon-square:hover { border-color: #0ea5e9; }
+    .cat-input-name { flex-grow: 1; border: 1px solid #cbd5e1; border-radius: 0.375rem; padding: 0.75rem; font-size: 1rem; color: #334155; transition: border-color 0.2s, box-shadow 0.2s; height: 56px; }
+    .cat-input-name:focus { border-color: #0ea5e9; outline: none; box-shadow: 0 0 0 2px rgba(14, 165, 233, 0.3); }
+    .cat-input-name:disabled { background-color: #f1f5f9; color: #64748b; cursor: not-allowed; }
+    input[type="range"].accent-sky-500 { accent-color: #0ea5e9; }
+    #icon-choice-modal-overlay .overflow-y-auto::-webkit-scrollbar { width: 8px; }
+    #icon-choice-modal-overlay .overflow-y-auto::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 4px; }
+    #icon-choice-modal-overlay .overflow-y-auto::-webkit-scrollbar-thumb:hover { background-color: #94a3b8; }
+  </style>
+</head>
+<body id="page-categories">
+  <div class="container">
+    <div class="header-settings">
+      <h1 class="flex-grow"> <span class="material-symbols-outlined">tune</span> Réglages des catégories </h1>
+      <button id="btn-new-cat-settings" class="ml-auto whitespace-nowrap"> <span class="material-symbols-outlined">add_circle</span> Nouvelle catégorie </button>
+      <a href="index.html" class="btn-back ml-4"> <span class="material-symbols-outlined">arrow_back</span>Accueil </a>
+    </div>
+    <div class="settings-controls">
+        <div id="cat-settings-search-wrapper"> <span class="material-symbols-outlined">search</span> <input type="text" id="cat-settings-search-input" placeholder="Rechercher une catégorie…"/> </div>
+        <button id="sort-cats-settings-btn"> <span class="material-symbols-outlined">sort_by_alpha</span> Trier A→Z </button>
+    </div>
+    <ul id="settings-cats-list"></ul>
+    <!-- Le bouton "Nouvelle catégorie" principal est maintenant dans le header -->
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
