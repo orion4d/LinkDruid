@@ -77,3 +77,15 @@ Ouvrez votre navigateur web et rendez-vous à l'adresse suivante :
 [**http://localhost:3000**](http://localhost:3000)
 
 Vous pouvez maintenant commencer à ajouter vos liens et à organiser vos catégories !
+
+### 🌟 **Soutenez le projet**
+
+Si ce projet vous a été utile, pensez à lui laisser une ⭐ sur GitHub !
+
+**Fait avec ❤️ pour la communauté open source**  
+**par Orion4D**
+
+[![Offrez-moi un café](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/orion4d)
+
+</div>
+
