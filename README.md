@@ -7,6 +7,8 @@ Le serveur back-end est principalement utilisé pour servir les fichiers de l'ap
 
 ## Fonctionnalités
 
+![image](https://github.com/user-attachments/assets/a3ec9aa4-c1f1-4cba-aa06-2205368f570f)
+
 ### Gestion des Liens
 *   **Ajouter, modifier et supprimer** des liens.
 *   Chaque lien peut avoir un **titre, une URL, une description et des tags**.
